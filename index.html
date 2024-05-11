@@ -1,173 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olesia Trebina</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/styles.css">
-    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body class="Fonts">
 
-<!--Main-->
-<div class="Main">
-    <!--Main content-->
-    <div class="Main_content">
-        <!--About user-->
-        <div class="About_user">
-            <h2 class="user_job">Lawyer</h2>
-            
-            <h1 class="user_name">Olesia Trebina</h1>
+<body>
+    <div class="main__container">
+        <main>
+            <div class="container">
+                <!--  -->
+                <section class="about">
+                    <h1 class="about__title">Olesia Trebina</h1>
+                    <p class="about__description">
+                        I am studying to become a Full Stack Developer. Coming to my
+                        skills - I know HTML (basics and semantics),CSS (basics, flexbox,
+                        adaptive and mobile-first css, BEM, SASS) and learning JavaScript
+                        at the moment. I did one successful team project and several solo
+                        projects.<br>
+                        I’m interested in Software Development because it has
+                        project-based structure, which can bring a whole new set of
+                        challenges. Also it can boost my problem-solving skills, it
+                        provides endless possibilities for professional growth. And I am
+                        excited to learn much more about this industry from professionals.
+                    </p>
+                </section>
 
-            <p class="user_description">
-                I am a Ph.D studen in the department of International Law. Looking for opportunities to learn and further my skills, and new challenges to improve them.
-            </p>
-            
-        </div>
-        <!--Projects-->
-        <div class="Projects">
-            <h3 class="place_tytle">
-                Projects
-            </h3>
+                <!--  -->
+                <section class="projects" id="projects">
+                    <h2 class="projects__title">Projects</h2>
+                    <ol class="projects__list">
+                        <li class="projects__item">
+                            <div class="projects__container">
+                                <a href="https://github.com/OlesiaTr/RS-online-zoo" class="projects__logo"
+                                    target="_blank" rel="noopener noreferrer" aria-label="Github">
+                                    <svg class="projects__logo--icon" width="20" height="20">
+                                        <use href="./images/symbol-defs.svg#icon-github"></use>
+                                    </svg></a>
+                                <a href="https://olesiatr.github.io/RS-online-zoo/pages/" class="projects__links"
+                                    target="_blank" rel="noopener noreferrer" aria-label="Weather app project">Online
+                                    Zoo</a>
+                                <span
+                                    class="projects__descriptions">........................................................................................................</span>
+                                [
+                                <span class="projects__descriptions">HTML5, CSS3, JavaScript</span>]
+                            </div>
+                            <p class="projects__descriptions">During Frontend development
+                                course in the <span class="projects__courses">RS School</span>
+                                studying one of our projects
+                                was to make pixel-perfect, adaptive design, in which I
+                                used JavaScript for interactions. </p>
+                        </li>
 
-            <ol class="project_list">
-                <li class="project_item">
-                    <a href="https://hellenglish.goit.global/" class="project_links">https://hellenglish.goit.global/</a>
-                    <span class="fill_in_text">.........</span>
-                    [ <span class="fill_in_text">HTML5, CSS3</span>]
-                </li>
-                <li class="project_item">
-                    <a href="https://cryptohub.goit.global/" class="project_links">https://cryptohub.goit.global/</a>
-                    <span class="fill_in_text">..........</span>
-                    [ <span class="fill_in_text">JavaScript</span>]
-                </li>
-                <li class="project_item">
-                    <a href="https://kidslike.goit.global" class="project_links">https://kidslike.goit.global/</a>
-                    <span class="fill_in_text">.................</span>
-                    [ <span class="fill_in_text">React.js, Node.js</span>]
-                </li>
-            </ol>
-            
-        </div>
-        <!--Work--->
-        <div>
-            <h3>
-               <span class="place_tytle">Work Experience</span> 
-                <!--Company 1-->
-                <div class="Company1">
-                    <h4 class="work_position">
-                        Front-End Developer <span class="workplace">Freelance</span>  
-                    </h4>
-                    <h5><span class="date">September 2019 - up to now   <span class="line">|</span>   Country</span>
-                    <ul class="work_list">
-                        <li class="fill_in_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li class="fill_in_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="fill_in_text">Risus commodo viverra maecenas. </li>
-                        <li class="fill_in_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                        <li class="projects__item">
+                            <div class="projects__container">
+                                <a href="https://github.com/OlesiaTr/SheCodes-weather-app" class="projects__logo"
+                                    target="_blank" rel="noopener noreferrer" aria-label="Github">
+                                    <svg class="projects__logo--icon" width="20" height="20">
+                                        <use href="./images/symbol-defs.svg#icon-github"></use>
+                                    </svg></a>
+                                <a href="https://effortless-elf-0edeae.netlify.app/" class="projects__links"
+                                    target="_blank" rel="noopener noreferrer" aria-label="Weather app project">Weather
+                                    App</a>
+                                <span
+                                    class="projects__descriptions">..................................................................................................</span>
+                                [
+                                <span class="projects__descriptions">HTML5, CSS3, Bootstrap, JavaScript</span>]
+                            </div>
+                            <p class="projects__descriptions">During <span class="projects__courses">SheCodes
+                                    workshops</span>
+                                studying one of our projects
+                                was Weather App, in which I
+                                used Bootstrap, OpenWeather API and axios. You can see the temperature in Celsius and
+                                Fahrenheit for the next 5 days, and today's humidity, wind speed, and
+                                temperature. </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- COURSES -->
+                <section class="courses" id="courses">
+                    <h2 class="courses__title">Courses</h2>
+                    <ul class="courses__list">
+                        <li class="courses__item">
+                            <span class="courses__name">GoIT</span> <a
+                                href="https://drive.google.com/file/d/1kREHjmEbd-VrnqVgrcP9ey85DF4GG_VJ/view?usp=drive_link"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="GoIT Full Stack Developer certificate">Full Stack Developer
+                                courses</a>
+                        </li>
+                        <li class="courses__item">
+                            <span class="courses__name">The Rolling Scopes School</span>
+                            <a href="https://drive.google.com/file/d/1SrS7hPsVXT0_byCx0BzaTzFCVaPRbcGp/view?usp=drive_link"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="The Rolling Scopes School JS/Frontend certificate">JS/Frontend development
+                                course EN 2022Q3</a>
+                        </li>
+                        <li class="courses__item">
+                            <span class="courses__name">SheCodes</span>
+                            <a href="https://www.shecodes.io/certificates/969ee2246449988ba49a5c7a87a00534"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="SheCodes Basics certificate">Basics</a>,
+                            <a href="https://www.shecodes.io/certificates/13867a2a6a15bf268260e0bf23cfcd35"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="SheCodes Plus certificate">Plus</a>,
+                            <a href="https://www.shecodes.io/certificates/482a7637bebb87d5135b3476e4325680"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="SheCodes Responsive certificate">Responsive</a>,
+                            <a href="https://drive.google.com/file/d/1XPa69GZtArkeQyKELOCmZZ7ip9eY5ZD9/view?usp=drive_link"
+                                class="courses__link" target="_blank" rel="noopener noreferrer"
+                                aria-label="SheCodes React certificate">React</a>
+                        </li>
+                        <li class="courses__item">
+                            <span class="courses__name">CS50</span>'s Introduction to
+                            Computer Science
+                        </li>
                     </ul>
-                </h5>
+                </section>
 
-                </div>
-                <!--Company 2-->
-                <div class="Company2">
-                    <h4 class="work_position">
-                        Manager <span class="workplace">Roga & Kopyta New</span>
-                    </h4>
-                    <h5> <span class="date">March 2015 - October 2018   <span class="line">|</span>   Country</span> 
-                    <ul class="work_list">
-                        <li class="fill_in_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-                        <li class="fill_in_text">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="fill_in_text">Risus commodo viverra maecenas. </li>
+                <!-- EDUCATION -->
+                <section class="education">
+                    <h2 class="education__title">Education</h2>
+                    <h3 class="education__uni">
+                        Yaroslaw The Wise National Law University
+                    </h3>
+                    <ul class="education__list">
+                        <li class="education__item list">
+                            <div class="education__wrap">
+                                <h4 class="education__specialty">
+                                    PhD. Postgraduate, International Law
+                                </h4>
+                                <p class="education__date">
+                                    September 2018 - ongoing
+                                    <span class="line">| </span>Ukraine
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item list">
+                            <div class="education__wrap">
+                                <h4 class="education__specialty">M. Sc. Law. Lawyer</h4>
+                                <p class="education__date">
+                                    September 2020 - June 2015
+                                    <span class="line">| </span>Ukraine
+                                </p>
+                            </div>
+                        </li>
                     </ul>
-                </h5>
-                </div>
-                <!--Company 3-->
-                <div class="Company3">
-                    <h4 class="work_position">
-                        Manager <span class="workplace">Registery Office</span>
-                    </h4>
-                    <h5> <span class="date">March 2016 - August 2017   <span class="line">|</span>   Ukraine)</span> 
-                    <ul class="work_list">
-                        <li class="fill_in_text">records management</li>
-                        <li class="fill_in_text">communication withcustomers</li>
-                        <li class="fill_in_text">working with documents,checking the correctnessof the prepared documentswhich were submitted tothe head for signature</li>
-                        <li class="fill_in_text">preparation andsubmission of documentarymaterial to the archieve</li>
-                    </ul>
-                </h5>
-                </div>
-            </h3>
-        </div>
-        <!--Education-->
-        <div class="Education">
-            <h3>
-                <span class="place_tytle"> Education</span>
-                <!--University 1-->
-                <div>
-                    <h4 class="University_name"> Yaroslaw The Wise National Law University</h4>
-
-                    <h4>
-                        <span class="specialty">PhD. Postgraduate, International Law</span> 
-                        <div>
-                            <p class="date">September 2018 - ongoing   <span class="line">|</span>  Urkaine</p>
-                        </div>
-                    </h4>
-                    <h4>
-                        <span class="specialty">M. Sc. Law. Lawyer</span> 
-                        <div>
-                            <p class="date">September 2010 - June 2015   <span class="line">|</span>   Ukraine</p>
-                        </div>
-                    </h4>
-                </div>
-            </h3>
-        </div>
-    </div>
-    <!--sidebar-->
-    <aside class="Sidebar">
-        <img src="Image/photo_2022-04-09_14-37-54.jpg" alt="user photo" class="user_photo">
-        <!--Contacts-->
-        <div class="Contacts">
-            <h3 class="sidebar_tytle">Contacts</h3>
-            <div>
-                <p>
-                     <span class="contact_type">C:</span>
-                    <a href="tel:+380637088474" class="contact_links">+38 063 708 84 74</a></p>
-                <p>
-                    <span class="contact_type">E:</span>
-                    <a href="mailto:olesyatrebina@gmail.com" class="contact_links">olesyatrebina@gmail.com</a></p>
+                </section>
             </div>
-        </div>
-        <!--Tech skills-->
-        <div class="Tech_skills">
-            <h3 class="sidebar_tytle">
-                Tech skills
-            </h3>
-            <ul class="skills_list">
-                <li class="list_item"><span class="list_text">HTML5</span></li>
-                <li class="list_item"><span class="list_text">CSS3</span></li>
-                <li class="list_item"><span class="list_text">GIT</span></li>
-                <li class="list_item"><span class="list_text">WebPack</span></li>
-                <li class="list_item"><span class="list_text">JavaScript</span></li>
-                <li class="list_item"><span class="list_text">React.js</span></li>
-                <li class="list_item"><span class="list_text">Node.js</span></li>
-            </ul>
-        </div>
-        <!--Soft skills-->
-        <div class="Soft_skills">
-            <h3 class="sidebar_tytle">
-                Soft skills
-            </h3>
-            <ul class="skills_list">
-                <li class="list_item"><span class="list_text">Scrum</span></li>
-                <li class="list_item"><span class="list_text">Agile</span></li>
-                <li class="list_item"><span class="list_text">GTD</span></li>
-                <li class="list_item"><span class="list_text">Teamwork</span></li>
-            </ul>
-        </div>
-    </aside>
-</div>
-    
+        </main>
+
+        <!--  -->
+        <aside class="sidebar">
+            <!-- PHOTO -->
+            <img src="/images/photo_2022-04-09_14-37-54.jpg" alt="My photo" class="user-photo">
+
+            <section class="contacts" id="contacts">
+                <h2 class="contacts__title">Contacts</h2>
+                <ul class="contacts__list list">
+                    <li class="contacts__item">
+                        <a href="https://discord.com/users/cranky4real" class="contacts__logo" target="_blank"
+                            rel="noopener noreferrer" aria-label="Discord">
+                            <svg class="contacts__logo--icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-discord"></use>
+                            </svg>@cranky4real</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="mailto:olesiatrebina@gmail.com" class="contacts__logo" target="_blank"
+                            rel="noopener noreferrer" aria-label="Email">
+                            <svg class="contacts__logo--icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                            </svg>olesiatrebina@gmail.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="https://t.me/olesiatrebina" class="contacts__logo" target="_blank"
+                            rel="noopener noreferrer" aria-label="Telegram">
+                            <svg class="contacts__logo--icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                            </svg>@olesiatrebina</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="https://github.com/OlesiaTr" class="contacts__logo" target="_blank"
+                            rel="noopener noreferrer" aria-label="Github">
+                            <svg class="contacts__logo--icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-github"></use>
+                            </svg>@olesiatr</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- TECH SKILLS -->
+            <section class="tech-skills">
+                <h2 class="tech-skills__title">Tech skills</h2>
+                <ul class="tech-skills__list">
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">HTML5</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">CSS3</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">SASS</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">JavaScript / TypeScript</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">React Hooks & Components</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">React Redux</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">Rest API</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">Git</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">Node.js</span>
+                    </li>
+                    <li class="tech-skills__item">
+                        <span class="tech-skills__item--text">MongoDB / PostgreSQL</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- SOFT SKILLS -->
+            <section class="soft-skills">
+                <h2 class="soft-skills__title">Soft skills</h2>
+                <ul class="soft-skills__list">
+                    <li class="soft-skills__item">
+                        <span class="soft-skills__item--text">Scrum</span>
+                    </li>
+                    <li class="soft-skills__item">
+                        <span class="soft-skills__item--text">Agile</span>
+                    </li>
+                    <li class="soft-skills__item">
+                        <span class="soft-skills__item--text">Diligent</span>
+                    </li>
+                    <li class="soft-skills__item">
+                        <span class="soft-skills__item--text">Cooperative</span>
+                    </li>
+                    <li class="soft-skills__item">
+                        <span class="soft-skills__item--text">Eager to learn</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- LANGUAGES -->
+            <section class="language">
+                <h2 class="language__title">Language</h2>
+                <ul class="language__list">
+                    <li class="language__item">
+                        <span class="language__item--text">English <span class="line">| </span>
+                            Advanced</span>
+                    </li>
+                    <li class="language__item">
+                        <span class="language__item--text">Ukrainian <span class="line">| </span> Native</span>
+                    </li>
+                    <li class="language__item">
+                        <span class="language__item--text">Russian <span class="line">| </span> Native</span>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </div>
 </body>
+
 </html>

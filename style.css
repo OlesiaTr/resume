@@ -1,0 +1,281 @@
+:root {
+  --main-text-color: #595959;
+  --secondary-text-color: #757575;
+  --secondary-bcg-color: #1e2939;
+  --accent-color: #fb6d3a;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.line {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 1);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  color: var(--main-text-color);
+}
+
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: #e5e5e5;
+  margin: 0px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.container .about {
+  width: 600px;
+}
+.about,
+.projects,
+.courses,
+.education {
+  margin-bottom: 20px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.projects__title,
+.courses__title,
+.education__title,
+.contacts__title,
+.tech-skills__title,
+.soft-skills__title,
+.language__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.projects__list,
+.courses__list,
+.tech-skills__list,
+.soft-skills__list,
+.language__list {
+  margin-left: 20px;
+}
+.projects__item {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__item + .projects__item {
+  margin-top: 12px;
+}
+
+.projects__container {
+  font-weight: 700;
+  display: flex;
+}
+
+.projects__links {
+  color: var(--main-text-color);
+  margin-left: 10px;
+  transition: color var(--transition);
+}
+
+.projects__links:hover {
+  color: var(--accent-color);
+}
+
+.projects__descriptions {
+  font-weight: 400;
+}
+
+.projects__courses {
+  font-weight: 700;
+}
+
+.projects__logo {
+  color: #000000;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects__logo:hover,
+.projects__logo:focus {
+  color: var(--accent-color);
+}
+
+.projects__logo--icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.courses__name {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.courses__link {
+  color: var(--main-text-color);
+  transition: font-weight var(--transition);
+}
+
+.courses__link:hover {
+  font-weight: 700;
+}
+
+.education__uni {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.education__wrap {
+  margin-bottom: 15px;
+}
+.education__specialty {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.education__date {
+  color: #a8a8a8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.sidebar {
+  color: #ffffff;
+  background-color: #1e2939;
+  min-width: 300px;
+  padding-top: 40px;
+}
+
+.user-photo {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.contacts__logo {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__logo:hover,
+.contacts__logo:focus {
+  color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.contacts__logo--icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.tech-skills,
+.soft-skills,
+.language,
+.contacts {
+  margin: 50px 0 45px 40px;
+}
+
+.tech-skills__list,
+.soft-skills__list,
+.language__list,
+.contacts__list {
+  color: var(--accent-color);
+}
+.tech-skills__item--text,
+.soft-skills__item--text,
+.language__item--text {
+  color: #ffffff;
+}
+
+.language__item--text .line {
+  color: var(--accent-color);
+}
