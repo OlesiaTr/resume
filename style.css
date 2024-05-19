@@ -102,7 +102,7 @@ body {
 }
 
 .container .about {
-  width: 600px;
+  width: 700px;
 }
 .about,
 .projects,
@@ -191,7 +191,8 @@ body {
   fill: currentColor;
 }
 
-.courses__name {
+.courses__nam,
+.work__date {
   color: var(--accent-color);
   font-weight: 700;
 }
@@ -246,7 +247,6 @@ body {
   color: #ffffff;
   text-decoration: none;
   display: flex;
-  align-items: center;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }

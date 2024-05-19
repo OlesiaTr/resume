@@ -1,5 +1,14 @@
 # Olesia Trebina
 
+Nice to meet you! I'm a Frontend Developer, who is still in the process of learning more and
+more about best practices, new features and updates in Web World. I've got a handle on HTML
+(including semantics), CSS (basics, flexbox,
+mobile-first design, BEM, SASS), JavaScript (ES6, asynchronous programming, DOM manipulation),
+and React (hooks, state
+management, component lifecycle). I've successfully completed several team projects during my
+studies, tackled several
+solo projects, and have experience with commercial and volunteer projects.
+
 ### Contacts:
 
 - Discord: @cranky4real
